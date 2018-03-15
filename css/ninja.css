@@ -1,0 +1,77 @@
+#logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:not(#logo), iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  opacity: 0.6;
+  filter:alpha(opacity=60);
+  -moz-opacity: 0.6;	
+}
+
+h1, h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+a:not([href*="curiosidades.html"]) {
+  background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+a:link {
+  color: white;  
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: hotpink;  
+  text-decoration: none;
+}
+
+strong {
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: lightskyblue;
+  background-color: darkblue;
+}
+
+body {
+	margin: 25px 25px 25px 25px;
+	background-color: lightskyblue;
+	color: darkblue;
+}
+
+p {
+	text-align: justify;
+}
+
+.opacity {
+  opacity: 0.6;
+  filter:alpha(opacity=60);
+  -moz-opacity: 0.6;	
+}
+
+.passo {
+  font-size: 25px;
+}
+
+
